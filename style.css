@@ -370,6 +370,45 @@ article .icon {
   height: 90%;
 }
 
+.project-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.project-emoji {
+  font-size: 3rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.project-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem;
+  justify-content: center;
+}
+
+.tech-tag {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 1rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.btn-icon {
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-right: 0.5rem;
+  filter: invert(1);
+}
+
 .project-title {
   margin: 1rem;
   color: black;
