@@ -394,10 +394,25 @@ article .icon {
 
 .project-image {
   width: 100%;
-  max-width: 300px;
+  max-width: 400px;
   height: auto;
   border-radius: 1rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.featured-project {
+  flex: 3 !important;
+  margin-bottom: 2rem;
+}
+
+.featured-project .project-image {
+  max-width: 500px;
+}
+
+.featured-project .project-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 1.5rem 1rem;
 }
 
 .project-logo {
