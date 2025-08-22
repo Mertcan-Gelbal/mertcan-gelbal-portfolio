@@ -280,7 +280,7 @@ section {
   margin-top: 1.5rem;
   display: flex;
   justify-content: center;
-  align-items: stretch;
+  align-items: flex-start;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -310,14 +310,14 @@ section {
 
 .details-container {
   padding: 1.5rem;
-  flex: 1;
+  flex: 0 1 auto;
   max-width: 500px;
   background: white;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: left;
-  min-height: auto;
+  height: fit-content;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   transition: all 0.3s ease;
 }
