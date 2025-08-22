@@ -278,6 +278,9 @@ section {
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
 }
 
 .about-details-container {
@@ -301,13 +304,14 @@ section {
 }
 
 .details-container {
-  padding: 1.5rem;
+  padding: 2rem;
   flex: 1;
   background: white;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
-  text-align: center;
+  text-align: left;
+  min-height: 400px;
 }
 
 .section-container {
@@ -345,15 +349,18 @@ section {
   text-align: initial;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 2.5rem;
-  justify-content: space-around;
+  gap: 1.5rem;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 article {
   display: flex;
-  width: 10rem;
-  justify-content: space-around;
+  min-width: 12rem;
+  max-width: 15rem;
+  justify-content: flex-start;
   gap: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 article .icon {
