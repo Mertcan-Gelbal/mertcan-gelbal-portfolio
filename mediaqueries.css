@@ -120,6 +120,9 @@
     font-size: 0.7rem;
     padding: 0.2rem 0.6rem;
   }
+  .btn-content {
+    gap: 0.3rem;
+  }
   .btn-icon {
     width: 1rem;
     height: 1rem;

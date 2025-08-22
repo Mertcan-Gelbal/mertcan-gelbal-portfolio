@@ -439,10 +439,21 @@ article .icon {
   font-weight: 500;
 }
 
+.btn-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn-text {
+  font-weight: 600;
+  color: white;
+}
+
 .btn-icon {
   width: 1.2rem;
   height: 1.2rem;
-  margin-right: 0.5rem;
   filter: invert(1);
 }
 
