@@ -462,6 +462,11 @@ article .icon {
   color: black;
 }
 
+/* Projelerde ikon olmadığında başlık için üst margin */
+.details-container.color-container .project-title:first-child {
+  margin-top: 2rem;
+}
+
 .project-description {
   margin: 0 1rem 1rem 1rem;
   color: rgb(85, 85, 85);
