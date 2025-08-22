@@ -100,9 +100,6 @@
   .text-container {
     text-align: justify;
   }
-  .project-emoji {
-    font-size: 2.5rem;
-  }
   .project-image {
     max-width: 250px;
   }
@@ -111,10 +108,6 @@
   }
   .featured-project {
     flex: 1 !important;
-  }
-  .project-logo {
-    width: 50px;
-    height: 50px;
   }
   .tech-tag {
     font-size: 0.7rem;
